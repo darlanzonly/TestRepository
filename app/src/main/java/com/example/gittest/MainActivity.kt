@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             GitTestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Deivid",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -29,6 +29,12 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Composable
+fun Test(){
+
+}
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
